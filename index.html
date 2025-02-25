@@ -39,7 +39,7 @@
         <div class="topsection">
 
             <div class="banner">
-                
+
 
                 <img src="" alt="">
 
@@ -49,9 +49,23 @@
                 <form action="">
                     <h3>Personal Banking Service</h3>
                     <h2>What Are You Looking For?</h2>
-                    <input type="text" placeholder="Select Product Type">               
-                    <input type="password" placeholder="Select Product">
-                    <button type="submit">APPLY ONLINE</button>
+
+                    <select id="productType" name="productType">
+                        <option value="">Select Product Type</option>
+                        <option value="savings">Savings Account</option>
+                        <option value="credit">Credit Card</option>
+                        <option value="loan">Loan</option>
+                    </select>
+
+                    <select id="productType" name="productType">
+                        <option value="">Select Product</option>
+                        <option value="savings">Savings Account</option>
+                        <option value="credit">Credit Card</option>
+                        <option value="loan">Loan</option>
+                    </select>
+
+
+                    <button class="apply-online" type="submit">APPLY ONLINE</button>
                     <h3 class="knowmore">Know More</h3>
                 </form>
             </div>
