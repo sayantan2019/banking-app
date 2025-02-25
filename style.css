@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav,
+.nav-link {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    gap: 60rem;
+
+}
+
+#desktop-nav {
+    display: flex;
+    font-size: 2rem;
+    background: #004b8d;
+    color: white;
+}
+
+.nav-link {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+li a {
+    color: white;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+.topsection {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.banner{
+    justify-content: space-around;
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;  
+    
+}
+h1, p {
+    margin-left: 10px; /* Adds some left margin for spacing */
+}
+.banner-text{
+    background-color: #004b8d;
+    color: white;
+    opacity: 60%;
+}
+
+.login-box {
+    width: 350px;
+    /* Set width */
+    height: 350px;
+    /* Set height equal to width */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* margin-top: -20% */
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+
+    width: 100%;
+    padding: 10px;
+    background: #004b8d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
