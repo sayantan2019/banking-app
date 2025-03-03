@@ -80,11 +80,13 @@ li a {
 }
 
 .banner{
+    /* border: 1px solid red; */
+    padding: 120px;
     justify-content: space-around;
     margin-top: 1rem;
-    border: 2px solid black;
     width: 65%;  
     overflow: hidden;  
+    
 }
 
 .banner .img{
